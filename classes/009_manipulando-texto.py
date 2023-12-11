@@ -30,7 +30,9 @@ print(frase2.rstrip())
 
 
 # Dividir uma string
-print(frase.split())
+fraseSplited = frase.split()
+print(fraseSplited)
 
-28:20 / 46:46
+print(' '.join(fraseSplited))
+
 
